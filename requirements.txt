@@ -1,0 +1,9 @@
+rich
+langchain
+langchain_groq
+langchain_core
+langchain_community
+ChromaDB
+sentence_transformers
+pypdf
+gradio
