@@ -7,3 +7,4 @@ ChromaDB
 sentence_transformers
 pypdf
 gradio==5.0.1
+pydantic==2.10.6
