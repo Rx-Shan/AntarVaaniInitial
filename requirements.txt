@@ -6,4 +6,4 @@ langchain_community
 ChromaDB
 sentence_transformers
 pypdf
-gradio
+gradio==5.0.1
