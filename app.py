@@ -143,8 +143,8 @@ from llm_setup import initialize_llm, create_or_load_vector_db
 from qa_chain import setup_qa_chain
 
 # Paths
-CSV_PATH = "D:\\Code\\AntarVaani\\updated_mental_health_professionals.csv"
-PDF_PATH = "D:\\Code\\AntarVaani\\data\\mental_health_Document.pdf"
+CSV_PATH = "updated_mental_health_professionals.csv" #"D:\\Code\\AntarVaani\\updated_mental_health_professionals.csv"
+PDF_PATH = "data/mental_health_Document.pdf" #D:\\Code\\AntarVaani\\data\\mental_health_Document.pdf
 DB_PATH = "chroma_db"
 
 # Load core components
