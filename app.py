@@ -135,7 +135,7 @@
 
 
 
-
+#working_local, not_hfs
 import gradio as gr
 from sample_questions import SAMPLE_QUESTIONS
 from utils import load_therapists
@@ -188,7 +188,7 @@ Available Therapists:
         gr.update(visible=True),      # show chatbot
         responses,                    # store in response state
         [("AntarVaani", initial_msg)], # initialize chat
-        gr.update(value=initial_msg)   # update state
+        initial_msg   # update state
     )
 
 # Chat interaction logic
